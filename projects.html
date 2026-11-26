@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Henkel Telos | Projects</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">HT<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">☰</button>
+      <nav id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1 class="page-title">Projects Showcase</h1>
+      <p class="page-subtitle">Filter my projects by category or inspect their repositories.</p>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web App</button>
+        <button class="filter-btn" data-filter="system">Management System</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Henkel Telos. Built for ADV 101 - IT Elective 1.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
